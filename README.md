@@ -1,6 +1,6 @@
 # Exosim 🪐
 
-#Try it out:
+# Try it out:
 - https://exosim.streamlit.app/
 
 - Exosim is an educational webapp that allows the user to explore an exoplanet - star system, while being able to change the charactaristics of the planet and star. User's can interact with the UI to see how changing the parameters of each celestial body changes the composition of the planet, it's habitable zone, and it's likelihood to support liquid water, and therefore it's habitability.
