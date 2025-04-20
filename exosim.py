@@ -64,16 +64,6 @@ def is_habitable(in_HZ, planet_type):
 # Streamlit UI
 
 st.set_page_config(layout="wide")
-
-# st.markdown("""
-#     <style>
-#         .block-container {
-#             padding-top: 0rem;
-#         }
-#     </style>
-# """, unsafe_allow_html=True)
-
-# st.set_page_config(layout="wide")
 st.title("Exoplanet Habitability Simulator")
 
 col1, col2 = st.columns([1,1])
@@ -261,27 +251,3 @@ with col2:
     
     # Display plot in Streamlit
     st.pyplot(fig)
-
-
-#Non-streamlit output
-# def main():
-#     print("Welcome to the Exoplanet Habitability Simulator!")
-#     print("================================================")
-#     user_mass = float(input("Enter the mass of your planet (in kg): "))
-#     print("================================================")
-#     user_radius = float(input("Enter the radius of your planet (in meters): "))
-#     print("================================================")
-#     user_distance = float(input("Enter the distance of your planet from it's host star (in meters): "))
-#     print("================================================")
-#     user_luminosity = float(input("Enter the luminosity of your planet's host star (in watts): "))
-#     print("================================================")
-    
-#     user_planet_composition = get_planet_composition(user_mass, user_radius)
-#     user_albedo = get_albedo(user_planet_composition)
-
-#     in_HZ = in_habitable_zone(user_luminosity, user_albedo, user_distance)
-#     if in_HZ:
-#         print(f"Your planet's composition is likely {user_planet_composition} and lies within it's calculated habitable zone.")
-#     else:
-#         print(f"Your planet's composition is likely {user_planet_composition} and does not lie within it's calculated habitable zone.")
-# main()
