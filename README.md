@@ -2,7 +2,7 @@
 
 # Try it out: https://exosim.streamlit.app/
 
-- Exosim is an educational webapp that allows the user to explore an exoplanet - star system, while being able to change the charactaristics of the planet and star. User's can interact with the UI to see how changing the parameters of each celestial body changes the composition of the planet, it's habitable zone, its likelihood to support liquid water, and therefore it's habitability.
+- Exosim is an educational webapp that allows the user to explore an exoplanet - star system, while being able to change the charactaristics of the planet and star. Users can interact with the UI to see how changing the parameters of each celestial body changes the composition of the planet, it's habitable zone, its likelihood to support liquid water, and therefore it's habitability.
 
 - This webapp was created with a python backend that uses my own algorithm to predict the composition and habitable zone of an exoplanet, while using the python streamlit module to handle the UI and user I/O. The dynamic graph was created using matplotlib and can be dynamically adjusted using streamlit's built-in slider function. 
 
